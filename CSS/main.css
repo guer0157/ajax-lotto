@@ -3,6 +3,10 @@
     text-align: center;
 }
 .main{
-    background-image: url();
+
     text-align: center;
+}
+.num_list li{
+    list-style: none;
+    
 }
