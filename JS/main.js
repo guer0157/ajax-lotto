@@ -45,7 +45,7 @@
     
 };
 //btn2 function
-function btn2(ev){
+    function btn2(ev){
 //Create refresh
     let refresh, active1, active2;
     refresh=document.querySelector('.num_list').innerHTML=" ";
