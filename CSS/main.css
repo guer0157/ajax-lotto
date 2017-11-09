@@ -1,12 +1,36 @@
-*{
-    
-    text-align: center;
-}
-.main{
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+/*Div 1 = id:Home class:"page active
+section = class:main
+p = class:"formBox"
+Div 2= id:"list" class:"page"*/
 
+*{
     text-align: center;
+    font-family: "berkshire swash", sans-serif;
+    line-height: 2rem
 }
-.num_list li{
+/*Toggle active*/
+.transition {
+    transform: translateX(100%);
+}
+/*list class*/
+.lis{
     list-style: none;
+}
+#digits, #max{
+    border-radius: 50%;
+    height: 80px;
+    font-size: 50px;
+}
+.size {
+    font-size: 50px;
+}
+#btnSend, #btnBack{
+    background-size: contain;
+    padding: 2rem 5rem;
+    font-size: 3rem;
     
+}
+.tran{
+    transform: translateX(-100%);
 }
