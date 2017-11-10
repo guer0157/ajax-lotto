@@ -23,6 +23,7 @@ body{
 .lot{
     font-size: 80px;
     color: darkgoldenrod;
+    text-shadow: 5px 2px gold;
     
     
 }
@@ -30,21 +31,26 @@ body{
     list-style: none;
 }
 #digits, #max{
+    border: 1px solid grey;
     border-radius: 50%;
     height: 80px;
     font-size: 50px;
+    box-shadow: 5px 7px gold;
 }
 .size {
     font-size: 50px;
+    color: goldenrod
 }
 #btnSend, #btnBack{
     background-size: contain;
     padding: 2rem 5rem;
     font-size: 3rem;
-    border: 7px solid black;
+    border: 7px solid goldenrod;
     background-image: url(../IMG/gold.jpg);
     background-repeat: no-repeat;
     background-color: whitesmoke;
+    color: darkgoldenrod;
+    text-shadow: 5px 2px gold;
     
 }
 .tran{

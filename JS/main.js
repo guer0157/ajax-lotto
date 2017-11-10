@@ -28,11 +28,12 @@
         .then((data)=>{
         console.log("Data parsed:",data);
 //add fun alert
-        if(data.code==0){
+          if(data.code==0){
             alert("Winner! Winner! Chicken Dinner!")
         }else{
             alert("You must select a value for Numbers and Range")
         }
+        
 //create list items with "forEach()"
         data.numbers.forEach((item)=>{
         let li, p, div2,ret, upp;
