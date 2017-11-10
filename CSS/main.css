@@ -7,13 +7,25 @@ Div 2= id:"list" class:"page"*/
 *{
     text-align: center;
     font-family: "berkshire swash", sans-serif;
-    line-height: 2rem
+    line-height: 2rem;
+   
+}
+body{
+    background-image: url(../IMG/gold.jpg);
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
 }
 /*Toggle active*/
 .transition {
     transform: translateX(100%);
 }
 /*list class*/
+.lot{
+    font-size: 80px;
+    color: darkgoldenrod;
+    
+    
+}
 .lis{
     list-style: none;
 }
@@ -29,8 +41,15 @@ Div 2= id:"list" class:"page"*/
     background-size: contain;
     padding: 2rem 5rem;
     font-size: 3rem;
+    border: 7px solid black;
+    background-image: url(../IMG/gold.jpg);
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
     
 }
 .tran{
     transform: translateX(-100%);
+}
+.sm{
+    background-image: url(../IMG/gold.jpg);
 }
