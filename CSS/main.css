@@ -10,7 +10,10 @@ Div 2= id:"list" class:"page"*/
     line-height: 2rem;
 }
 body{
+    
     background-image: url(../IMG/gold.jpg);
+    background-size: auto;
+    width: 100%;
     background-repeat: no-repeat;
     background-color: whitesmoke;
 }
@@ -24,32 +27,6 @@ body{
     color: darkgoldenrod;
     text-shadow: 5px 2px gold;    
 }
-.num_list{
-    /*padding-left: 210px;*/
-    padding-left: 0;
-    position: relative;
-}
-.lis{
-/*    list-style: none;
-    font-size: 50px;
-    line-height: 60px;
-    border: 2px solid black;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    padding: 3px 0 3px 0;*/
-    display: inline;
-    font-size: 40px;
-    text-align: center;
-    width: 60px;
-    height: 60px;
-    margin: 2px solid black;
-    border-radius: 50%;
-    margin-right: 7px;
-    padding:
-    
-
-}
 #digits, #max{
     border: 1px solid grey;
     border-radius: 50%;
@@ -59,7 +36,7 @@ body{
 }
 .size {
     font-size: 50px;
-    color: goldenrod
+    color: goldenrod;
 }
 #btnSend, #btnBack{
     background-size: contain;
@@ -75,14 +52,15 @@ body{
 }
 .page{
     position: absolute;
-    transform: translateX(-300%);
+    width: 100%;
+    transform: translateX(-100%);
 }
 .active{
-    position: absolute;
-    transform: translate(0);
+    transform: translateX(0);
 }
-.wrapper{
-    padding-left: 520px;
-    margin: auto;
-    border: auto;
+.lis{
+    font-size: 50px;
+    list-style: none;
+    line-height: 3rem;
+    padding-bottom: 1rem;
 }

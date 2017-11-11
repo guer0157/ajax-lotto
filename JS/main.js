@@ -39,13 +39,14 @@
         let li, p, div2,ret, upp;
         li = document.createElement('li');
         li.className ="lis";
-        p = document.createTextNode(item);  
+        p =document.createTextNode(item);
         li.appendChild(p);
         unl.appendChild(li);
         div2 = document.getElementById('home');
         div2.classList.remove("active")
         ret=document.getElementById('list');
         ret.classList.add("active");
+        console.log(unl);
         
     })
 })
@@ -57,6 +58,8 @@
 };
 //btn2 function
     function btn2(ev){
+        
+          
 //Create refresh
         let refresh, tran2, ret2;
         refresh=document.querySelector('.num_list').innerHTML=" ";
