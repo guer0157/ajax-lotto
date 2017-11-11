@@ -43,9 +43,9 @@
         li.appendChild(p);
         unl.appendChild(li);
         div2 = document.getElementById('home');
-        div2.className ="transition"
+        div2.classList.remove("active")
         ret=document.getElementById('list');
-        ret.classList.remove("tran");
+        ret.classList.add("active");
         
     })
 })
@@ -62,8 +62,8 @@
         refresh=document.querySelector('.num_list').innerHTML=" ";
 //Toggle class active for elements
         tran2 = document.getElementById('home');
-        tran2.classList.remove("transition");
+        tran2.classList.add("active");
         ret2=document.getElementById('list');
-        ret2.classList.toggle('tran');
+        ret2.classList.remove('active');
               
 };

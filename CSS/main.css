@@ -8,7 +8,6 @@ Div 2= id:"list" class:"page"*/
     text-align: center;
     font-family: "berkshire swash", sans-serif;
     line-height: 2rem;
-   
 }
 body{
     background-image: url(../IMG/gold.jpg);
@@ -23,12 +22,33 @@ body{
 .lot{
     font-size: 80px;
     color: darkgoldenrod;
-    text-shadow: 5px 2px gold;
-    
-    
+    text-shadow: 5px 2px gold;    
+}
+.num_list{
+    /*padding-left: 210px;*/
+    padding-left: 0;
+    position: relative;
 }
 .lis{
-    list-style: none;
+/*    list-style: none;
+    font-size: 50px;
+    line-height: 60px;
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 3px 0 3px 0;*/
+    display: inline;
+    font-size: 40px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin: 2px solid black;
+    border-radius: 50%;
+    margin-right: 7px;
+    padding:
+    
+
 }
 #digits, #max{
     border: 1px solid grey;
@@ -53,7 +73,16 @@ body{
     text-shadow: 5px 2px gold;
     
 }
-.tran{
-    transform: translateX(-100%);
+.page{
+    position: absolute;
+    transform: translateX(-300%);
 }
-
+.active{
+    position: absolute;
+    transform: translate(0);
+}
+.wrapper{
+    padding-left: 520px;
+    margin: auto;
+    border: auto;
+}
